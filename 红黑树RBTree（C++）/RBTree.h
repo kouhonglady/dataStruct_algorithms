@@ -22,7 +22,7 @@ class RBTNode{
         RBTNode *parent; // ¸¸½áµã
 
         RBTNode(T value, RBTColor c, RBTNode *p, RBTNode *l, RBTNode *r):
-            key(value),color(c),parent(),left(l),right(r) {}
+            key(value),color(c),parent(p),left(l),right(r) {}
 };
 
 template <class T>
